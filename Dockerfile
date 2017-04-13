@@ -9,4 +9,6 @@ RUN /tmp/run_container.sh
 
 VOLUME [ "/sys/fs/cgroup", "/tmp", "/run" ]
 
-CMD ["bash"]
+CMD ["flatpak-builder --repo=repo dist org.gnome.Todo.Test.json"]
+CMD ["flatpak-builder --run dist org.gnome.Todo.Test.json gnome-desktop-testing-runner gnome-todo"]
+
