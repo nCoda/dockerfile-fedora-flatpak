@@ -7,6 +7,7 @@
 dnf install -y \
     systemd \
     flatpak \
+    flatpak-builder \
     ansible \
     python2-dnf
 
