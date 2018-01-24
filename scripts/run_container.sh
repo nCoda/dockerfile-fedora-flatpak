@@ -4,4 +4,5 @@
 # single docker layer.
 
 dnf install -y flatpak flatpak-builder
+dnf install -y git
 dnf clean all
