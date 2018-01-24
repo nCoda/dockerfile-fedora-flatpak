@@ -6,7 +6,7 @@ Currently Fedora 27.
 This Dockerfile produces a version of the official Fedora image with [Flatpak](http://flatpak.org)
 installed.
 
-Available as an [automated build](https://hub.docker.com/r/gbraad/flatpak/) from the Docker registry.
+Available as an [automated build](https://hub.docker.com/r/crantila/fedora-flatpak) from the Docker registry.
 
 
 Authors
