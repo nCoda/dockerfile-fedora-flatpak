@@ -1,10 +1,10 @@
-Flatpak
-=======
+Dockerfile Fedora Flatpak
+=========================
 
-!["Prompt"](https://raw.githubusercontent.com/gbraad/assets/gh-pages/icons/prompt-icon-64.png)
+Currently Fedora 27.
 
-
-Docker container of a test environment with [Flatpak](http://flatpak.org) installed.
+This Dockerfile produces a version of the official Fedora image with [Flatpak](http://flatpak.org)
+installed.
 
 Available as an [automated build](https://hub.docker.com/r/gbraad/flatpak/) from the Docker registry.
 
@@ -12,6 +12,8 @@ Available as an [automated build](https://hub.docker.com/r/gbraad/flatpak/) from
 Authors
 -------
 
-| [!["Gerard Braad"](http://gravatar.com/avatar/e466994eea3c2a1672564e45aca844d0.png?s=60)](http://gbraad.nl "Gerard Braad <me@gbraad.nl>") |
-|---|
-| [@gbraad](https://twitter.com/gbraad)  |
+First created by [Gerard Braad](https://github.com/gbraad).
+
+Modified by [Alberto Fanjul](https://github.com/albfan).
+
+Modified by [Christopher Antila](https://github.com/crantila).
