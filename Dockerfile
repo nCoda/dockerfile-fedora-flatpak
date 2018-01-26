@@ -5,6 +5,7 @@ MAINTAINER Christopher Antila <christopher@ncodamusic.org>
 # split up the operations and do it all in a single layer.
 COPY scripts/    /tmp/
 RUN /tmp/dnf.sh
+RUN /tmp/node.sh
 RUN /tmp/flatpak.sh
 
 VOLUME [ "/sys/fs/cgroup", "/tmp", "/run" ]
